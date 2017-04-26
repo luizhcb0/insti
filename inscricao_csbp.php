@@ -86,12 +86,12 @@
 		<div class="col-sm-8 col-sm-offset-2">
 		<div class="panel_boots panel-default box">
   		<div class="panel-heading">
-    		<h3 class="panel-title">Inscrição<br>Curso: Roma - Estrasburgo - Luxemburgo</h3>
+    		<h3 class="panel-title">Inscrição<br><small>Recursos Trabalhistas de acordo com o Novo CPC</b><br>Capacitação Estratégica</small></h3>
   		</div>
   		<div class="panel-body">
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1">
-						<form class="form-horizontal" action="processa_roma" method="post">
+						<form class="form-horizontal" action="processa_csbp" method="post">
 
 							<div class="form-group">
     						<label for="nome" class="col-sm-3 control-label" style="color:#005a9c;">Nome Completo</label>

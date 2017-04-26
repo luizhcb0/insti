@@ -9,7 +9,7 @@ $mensagem = $_POST['mensagem'];
 // Inclui o arquivo class.phpmailer.php localizado na pasta class
 require_once("class/class.phpmailer.php");
 
-$sucesso = file_get_contents('contato-enviado.html');
+$sucesso = file_get_contents('contato-enviado.php');
 $body="<!DOCTYPE html>
 
 <html>

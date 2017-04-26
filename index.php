@@ -158,8 +158,13 @@ $(document).ready(function() {
 			<div class="col-sm-12 index label_index">Últimos Eventos</div>
 		</div>
 		<div class="testando" style="margin-bottom:20px;">
-      <div class="col-sm-4 index evento"><a target="_blank" href="http://www.trt5.jus.br/default.asp?pagina=noticiaSelecionada&id_noticia=81991"><img src="img/evento5.jpg"></a>
-				<p>TRT da Bahia promove o 4º Encontro sobre Acessibilidade com a participação de Lars Grael. <a target="_blank" href="http://www.trt5.jus.br/default.asp?pagina=noticiaSelecionada&id_noticia=81991">Saiba mais...</a></p>
+      
+      <div class="col-sm-4 index evento"><a target="_blank" href="csbp"><img src="img/evento6.jpg"></a>
+        <p>Capacitação Estratégica: Recursos Trabalhistas de acordo com o Novo CPC. <a target="_blank" href="csbp">Saiba mais...</a></p>
+      </div>
+      
+      <div class="col-sm-4 index evento"><a target="_blank" href="https://www.trt5.jus.br/node/21806"><img src="img/evento5.jpg"></a>
+				<p>TRT da Bahia promove o 4º Encontro sobre Acessibilidade com a participação de Lars Grael. <a target="_blank" href="https://www.trt5.jus.br/node/21806">Saiba mais...</a></p>
       </div>
 			<div class="col-sm-4 index evento"><a target="_blank" href="http://csbbrasil.org.br/blog/2016/09/08/o-mundo-nao-suporta-mais-o-sistema-de-hegemonia-colonial-diz-lorenzo-carrasco/"><img src="img/evento1.jpg"></a>
 				<p>Palestra com Prof. Gáudio Ribeiro na Executiva Nacional da CSB: Conjuntura internacional e desafios para o movimento laboral. <a target="_blank" href="http://csbbrasil.org.br/blog/2016/09/08/o-mundo-nao-suporta-mais-o-sistema-de-hegemonia-colonial-diz-lorenzo-carrasco/">Saiba mais...</a></p>
@@ -168,12 +173,10 @@ $(document).ready(function() {
 				<p>Prof. Gáudio Ribeiro de Paula e Ministros do TST discutem polêmicas do Direito Sindical em seminário realizado no TRT-15. <a target="_blank" href="http://portal.trt15.jus.br/trt15-2.1?p_p_auth=xeeGXi8N&amp;p_p_id=101&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_101_struts_action=%2Fasset_publisher%2Fview_content&amp;_101_assetEntryId=2788037&amp;_101_type=content&amp;_101_urlTitle=seminario-realizado-em-campinas-discute-polemicas-do-direito-sindical&amp;redirect=http%3A%2F%2Fportal.trt15.jus.br%2Ftrt15%3Fp_p_id%3D3%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_3_groupId%3D0%26_3_keywords%3Dga%25C3%25BAdio%26_3_struts_action%3D%252Fsearch%252Fsearch%26_3_redirect%3D%252F">Saiba mais...</a>
 				</p>
 			</div>
-			<div class="col-sm-4 index evento"><a target="_blank" href="http://www.trt5.jus.br/default.asp?pagina=noticiaSelecionada&amp;id_noticia=78851"><img src="img/evento4.jpg"></a>
-				<p>'Mulheres continuam sofrendo ataques sistemáticos', afirma Contardo Calligaris. <a target="_blank" href="http://www.trt5.jus.br/default.asp?pagina=noticiaSelecionada&amp;id_noticia=78851">Saiba mais...</a></p>
+			<div class="col-sm-4 index evento"><a target="_blank" href="https://www.trt5.jus.br/node/22475"><img src="img/evento4.jpg"></a>
+				<p>'Mulheres continuam sofrendo ataques sistemáticos', afirma Contardo Calligaris. <a target="_blank" href="https://www.trt5.jus.br/node/22475">Saiba mais...</a></p>
       </div>
-      <div class="col-sm-4 index evento"><a target="_blank" href="http://www.trt5.jus.br/default.asp?pagina=noticiaSelecionada&id_noticia=81991"><img src="img/evento5.jpg"></a>
-				<p>TRT da Bahia promove o 4º Encontro sobre Acessibilidade com a participação de Lars Grael. <a target="_blank" href="http://www.trt5.jus.br/default.asp?pagina=noticiaSelecionada&id_noticia=81991">Saiba mais...</a></p>
-      </div>
+
 		</div>
 
 
@@ -287,51 +290,9 @@ $(document).ready(function() {
 
 		<!-- The content of your page would go here. -->
 
-	<footer class="footer-distributed">
-			<div class="footer-left">
-				<h3><span><a href="index"><img src="img/logo_footer.png"></span></a></h3>
-				<p class="footer-links">
-					<a href="quem_somos">Sobre</a>
-					·
-					<a href="equipe">Equipe</a>
-					·
-					<a href="noticias">Cursos</a>
-					·
-					<a href="contato">Contato</a>
-				</p>
-				<p class="footer-company-name">Instituto Dia &copy; 2016</p>
-			</div>
-
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p style="color:#92999f"><span>SHN Qd 02, Bloco F,
-					</span>
-					<span>Edifício Executive Office Tower, sala 405,
-					</span><span>CEP 70702-906 - Brasília, DF</span></p>
-				</div>
-				<div>
-					<i class="fa fa-phone"></i>
-					<p style="color:#92999f">+55 61 3306-1061</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:contato@institutodia.com.br">contato@institutodia.com.br</a></p>
-				</div>
-			</div>
-
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span>Sobre o Instituto</span>
-					O Instituto Duc In Altum (DIA) de Formação Jurídica Estratégica surgiu da iniciativa de profissionais que atuam na docência jurídica em diversos segmentos.
-				</p>
-				<div class="footer-icons">
-					<a target="_blank" href="http://www.linkedin.com/company/10913462?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10913462%2Cidx%3A2-1-2%2CtarId%3A1478792619694%2Ctas%3Ainstituto%20duc" target="_blank"><i class="fa fa-linkedin"></i></a>
-					<a target="_blank" href="http://twitter.com/DiaContato" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a target="_blank" href="http://www.facebook.com/institutodia/" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-			</div>
-		</footer>
+    <?php 
+  	readfile("footer.php");
+  	?>
 
 </body>
 </html>

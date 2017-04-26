@@ -1,7 +1,3 @@
-<?php
-$var="Lúis Camargo - Gáudio Ribeiro de Paula - Otávio Brito Lopes : Palestra Enquadramento Sindical";
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +15,6 @@ $var="Lúis Camargo - Gáudio Ribeiro de Paula - Otávio Brito Lopes : Palestra 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 
-<link rel="stylesheet" href="css/demo.css">
 <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
@@ -57,7 +52,7 @@ $var="Lúis Camargo - Gáudio Ribeiro de Paula - Otávio Brito Lopes : Palestra 
 			<div id="fb_icon">
 				<a target="_blank" href="http://www.facebook.com/institutodia/"><img src="img/fb_icon_fb.png"></a>
 			</div>
-			<div class="navbar-header">
+				<div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -75,7 +70,7 @@ $var="Lúis Camargo - Gáudio Ribeiro de Paula - Otávio Brito Lopes : Palestra 
             		<li><a href="equipe">Equipe</a></li>
           		</ul>
         		</li>
-						<li class="active"><a href="cursos">Cursos e Palestras</a></li>
+						<li><a href="cursos">Cursos e Palestras</a></li>
             <li><a href="noticias">Notícias</a></li>
 						<li><a href="videos">Vídeos</a></li>
             <li><a href="contato">Contato</a></li>
@@ -88,58 +83,22 @@ $var="Lúis Camargo - Gáudio Ribeiro de Paula - Otávio Brito Lopes : Palestra 
 
 	<section class="container-fluid" id="content">
 		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<div class="panel_boots panel-default box">
-  				<div class="panel-heading curso_titulo">
-    				<h3 class="panel-title"><b><?php echo $var ?></b></h3>
-  				</div>
-  				<div class="panel-body curso_body">
-
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2 curso_img">
-								<img src="img/luis-gaudio-otavio.jpg">
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-10 col-sm-offset-1 curso_text" style="text-align:center;">
-								<p><b>Luís Camargo - Gáudio Ribeiro de Paula - Otávio Brito Lopes</b></p>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-12 curso_label_container">
-								<div class="curso_label">
-
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2 curso_text">
-								<p><b>CARGA HORÁRIA:</b><br>
-								3 horas</p>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-12" style="color:#05589c;">
-								<br> <h4>Nossas palestras In-Company são formatadas de acordo com a demanda de clientes.<br>Preencha o Formulário para mais informações.</h4>
-							</div>
-						</div>
-
-						<div class="row">
-								<form class="" action="form_palestra.php" method="post">
-									<input type="hidden" name="var" value="<?php echo $var; ?>"/>
-									<div class="col-sm-12 inscricao">
-										<button type="submit" class="btn btn-primary">Formulário</button>
-									</div>
-								</form>
-						</div>
-  				</div>
+		<div class="col-sm-8 col-sm-offset-2">
+		<div class="panel_boots panel-default box">
+  		<div class="panel-heading">
+    		<h3 class="panel-title">Inscrição</h3>
+  		</div>
+  		<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<p style="padding:60px; color:#005a9c; font-size:20px;">Sua inscrição foi solicitada com sucesso!<br>Entraremos em contato em breve.<p>
+					</div>
 				</div>
-			</div>
+  		</div>
 		</div>
+		</div>
+		</div>
+
 	</section>
 
 

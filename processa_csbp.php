@@ -10,7 +10,7 @@ $endereco = $_POST['endereco'];
 $estado = $_POST['estado'];
 $cidade = $_POST['cidade'];
 $bairro = $_POST['bairro'];
-$evento = "Recursos Trabalhistas de acordo com o novo CPC";
+$evento = "Curso Telepresencial - CSBP";
 
 if (isset($_POST['news'])) {
 	$news = "Deseja receber emails relacionados a eventos.";

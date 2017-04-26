@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="158" role="navigation">
       <div class="container-fluid">
-      	<div id="linkedin_icon">
+      		<div id="linkedin_icon">
 					<a target="_blank" href="http://www.linkedin.com/company/10913462?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10913462%2Cidx%3A2-1-2%2CtarId%3A1478792619694%2Ctas%3Ainstituto%20duc"><img src="img/linkedin_icon.png"></a>
 				</div>
 				<div id="twitter_icon">
@@ -118,17 +118,17 @@ $(document).ready(function() {
                           <div class="col-sm-12">
                             <div class="row">
                               <div class="col-sm-12 noticia_title">
-                                <h4 class="media-heading"><b>Abusos domésticos</b></h4>
+                                <h4 class="media-heading"><b>Panorama geral dos impactos do novo CPC na Justiça do Trabalho</b></h4>
                               </div>
                             </div>
                             <div class="row">
                               <div class="col-sm-12 noticia_img">
-                                <img src="img/noticia1_grande.jpg" alt="Generic placeholder image">
+                                <img src="img/noticia2_grande.jpg" alt="Generic placeholder image">
                               </div>
                             </div>
                             <div class="row">
                               <div class="col-sm-12 noticia_text">
-                                Entrevista do professor Gáudio Ribeiro de Paula, Presidente do Instituto DIA, ao Jornal da Justiça sobre o tema "Abusos Domésticos" A regulamentação dos direitos de empregados domésticos só foi aprovada no ano passado. De acordo com a norma o empregado doméstico é aquele que presta serviços remunerados, no âmbito residencial, por mais de dois dias por semana. A estimativa é que apenas vinte por cento desses trabalhadores no país tenha carteira assinada. Além disso, situações de abusos e discriminação da atividade ainda são muito comuns.
+                                Aula presencial e por vídeo conferência sobre o tema "Panorama geral dos impactos do novo CPC na Justiça do Trabalho" ministrada pelo professor Dr. Gáudio Ribeiro no SERPRO/DF e para os polos de: Salvador, Belo Horizonte, São Paulo, Fortaleza, Curitiba, Rio de Janeiro, Porto Alegre, Belém e Recife.
                               </div>
                             </div>
                 					</div>
@@ -148,51 +148,9 @@ $(document).ready(function() {
 		</div>
 	</section>
 
-  <footer class="footer-distributed">
-			<div class="footer-left">
-				<h3><span><a href="index"><img src="img/logo_footer.png"></span></a></h3>
-				<p class="footer-links">
-					<a href="quem_somos">Sobre</a>
-					·
-					<a href="equipe">Equipe</a>
-					·
-					<a href="noticias">Cursos</a>
-					·
-					<a href="contato">Contato</a>
-				</p>
-				<p class="footer-company-name">Instituto Dia &copy; 2016</p>
-			</div>
-
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p style="color:#92999f"><span>SHN Qd 02, Bloco F,
-					</span>
-					<span>Edifício Executive Office Tower, sala 405,
-					</span><span>CEP 70702-906 - Brasília, DF</span></p>
-				</div>
-				<div>
-					<i class="fa fa-phone"></i>
-					<p style="color:#92999f">+55 61 3306-1061</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:contato@institutodia.com.br">contato@institutodia.com.br</a></p>
-				</div>
-			</div>
-
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span>Sobre o Instituto</span>
-					O Instituto Duc In Altum (DIA) de Formação Jurídica Estratégica surgiu da iniciativa de profissionais que atuam na docência jurídica em diversos segmentos.
-				</p>
-				<div class="footer-icons">
-					<a target="_blank" href="http://www.linkedin.com/company/10913462?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10913462%2Cidx%3A2-1-2%2CtarId%3A1478792619694%2Ctas%3Ainstituto%20duc" target="_blank"><i class="fa fa-linkedin"></i></a>
-					<a target="_blank" href="http://twitter.com/DiaContato" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a target="_blank" href="http://www.facebook.com/institutodia/" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-			</div>
-		</footer>
+  <?php 
+	readfile("footer.php");
+	?>
 
 </body>
 </html>

@@ -24,7 +24,7 @@ $_POST = array();
 // Inclui o arquivo class.phpmailer.php localizado na pasta class
 require_once("class/class.phpmailer.php");
 
-$sucesso = file_get_contents('inscricao-solicitada.html');
+$sucesso = file_get_contents('inscricao-solicitada.php');
 $body="<!DOCTYPE html>
 
 <html>

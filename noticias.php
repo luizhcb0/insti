@@ -51,7 +51,7 @@ $(document).ready(function() {
 
 <body>
 
-	<section class="header">
+  <section class="header">
 		<div id="azul"></div>
 		<div id="branco"></div>
 		<div id="logo">
@@ -89,7 +89,7 @@ $(document).ready(function() {
           		</ul>
         		</li>
 						<li><a href="cursos">Cursos e Palestras</a></li>
-            <li class="active"><a href="noticias">Notícias</a></li>
+            <li class="active"><a href="">Notícias</a></li>
             <li><a href="videos">Vídeos</a></li>
             <li><a href="contato">Contato</a></li>
           </ul>
@@ -113,30 +113,71 @@ $(document).ready(function() {
                 <ul class="list-group">
 									<li class="list-group-item">
                     <div class="media noticia">
-                      <div class="row">
-                        <div class="media-body">
-                          <div class="col-sm-12">
-                            <div class="row">
-                              <div class="col-sm-12 noticia_title">
-                                <h4 class="media-heading"><b>Projeto LIBRA</b></h4>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12 noticia_img" id="noticia_img_logo">
-                                <img src="img/noticia5_grande.jpg" alt="Generic placeholder image">
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12 noticia_text">
-                                Reunião com Regina Lacerda, representante da LIBRA no Distrito Federal, com nosso diretor executivo Dr Luiz Teixeira e seu time, Paulo e Marcel Di Ângelo. Mediante parceria entre o Instituto Dia e a LIBRA - Liga das Mulheres Eleitoras do Brasil, será desenvolvido o Programa de Formação de Educação Social e Cidadania Política (PFEP). O Instituto DIA se propôs a colaborar na elaboração de um Plano de Trabalho voltado à captação de recursos que viabilizem a realização do PFEP.
-                              </div>
-                            </div>
-                					</div>
-                        </div>
-                      </div>
-
+            					<a class="media-left" href="#">
+              					<img class="media-object" src="img/noticia1.jpg" alt="Generic placeholder image">
+            					</a>
+            					<div class="media-body">
+              					<h4 class="media-heading"><b>Entrevista sobrea abusos domésticos</b></h4>
+              					Entrevista do professor Gáudio Ribeiro de Paula, Presidente do Instituto DIA, ao Jornal da Justiça sobre o tema "Abusos Domésticos".
+          							<br><br><button type="button" class="btn btn-primary btn-sm" onclick="window.location='noticia1';">Leia mais</button>
+            					</div>
           					</div>
                   </li>
+
+                  <li class="list-group-item">
+                    <div class="media noticia">
+            					<a class="media-left" href="#">
+              					<img class="media-object" src="img/noticia2.jpg" alt="Generic placeholder image">
+            					</a>
+            					<div class="media-body">
+              					<h4 class="media-heading"><b>Impactos do novo CPC na Justiça do Trabalho</b></h4>
+              					Aula presencial e por vídeo. Conferência sobre o tema "Panorama geral dos impactos do novo CPC na Justiça do Trabalho".
+          							<br><br><button type="button" class="btn btn-primary btn-sm" onclick="window.location='noticia2';">Leia mais</button>
+            					</div>
+          					</div>
+                  </li>
+
+                  <li class="list-group-item">
+                    <div class="media noticia">
+            					<a class="media-left" href="noticia3">
+              					<img class="media-object" src="img/noticia3.jpg" alt="Generic placeholder image">
+            					</a>
+            					<div class="media-body">
+              					<h4 class="media-heading"><b>Intervenção da Justiça do Trabalho nas Relações Sindicais</b></h4>
+              					Ministro Douglas Alencar (TST) ministra palestra sobre o tema "Intervenção da Justiça do Trabalho nas Relações Sindicais".
+          							<br><br><button type="button" class="btn btn-primary btn-sm" onclick="window.location='noticia3';">Leia mais</button>
+            					</div>
+          					</div>
+                  </li>
+
+                  <li class="list-group-item">
+                    <div class="media noticia">
+            					<a class="media-left" href="noticia4">
+              					<img class="media-object" src="img/noticia4.jpg" alt="Generic placeholder image">
+            					</a>
+            					<div class="media-body">
+              					<h4 class="media-heading"><b>Conjuntura internacional e desafios para o movimento laboral</b></h4>
+                        No mesmo painel que debateu a “Conjuntura internacional e os desafios para o movimento laboral”, o advogado trabalhista Gáudio Ribeiro de Paula fez um panorama da realidade trabalhista e do sindicalismo na Europa.
+          							<br><br><button type="button" class="btn btn-primary btn-sm" onclick="window.location='noticia4';">Leia mais</button>
+            					</div>
+          					</div>
+                  </li>
+
+                  <li class="list-group-item">
+                    <div class="media noticia">
+            					<a class="media-left" href="noticia5">
+              					<img class="media-object" src="img/noticia5.jpg" alt="Generic placeholder image">
+            					</a>
+            					<div class="media-body">
+              					<h4 class="media-heading"><b>Projeto LIBRA</b></h4>
+                        Reunião com Regina Lacerda, representante da LIBRA no Distrito Federal, com nosso diretor executivo Dr Luiz Teixeira e seu time, Paulo e Marcel Di Ângelo.
+          							<br><br><button type="button" class="btn btn-primary btn-sm" onclick="window.location='noticia5';">Leia mais</button>
+            					</div>
+          					</div>
+                  </li>
+
+
+
 								</ul>
       				</div>
       			</div>
@@ -148,51 +189,9 @@ $(document).ready(function() {
 		</div>
 	</section>
 
-  <footer class="footer-distributed">
-			<div class="footer-left">
-				<h3><span><a href="index"><img src="img/logo_footer.png"></span></a></h3>
-				<p class="footer-links">
-					<a href="quem_somos">Sobre</a>
-					·
-					<a href="equipe">Equipe</a>
-					·
-					<a href="noticias">Cursos</a>
-					·
-					<a href="contato">Contato</a>
-				</p>
-				<p class="footer-company-name">Instituto Dia &copy; 2016</p>
-			</div>
-
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p style="color:#92999f"><span>SHN Qd 02, Bloco F,
-					</span>
-					<span>Edifício Executive Office Tower, sala 405,
-					</span><span>CEP 70702-906 - Brasília, DF</span></p>
-				</div>
-				<div>
-					<i class="fa fa-phone"></i>
-					<p style="color:#92999f">+55 61 3306-1061</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:contato@institutodia.com.br">contato@institutodia.com.br</a></p>
-				</div>
-			</div>
-
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span>Sobre o Instituto</span>
-					O Instituto Duc In Altum (DIA) de Formação Jurídica Estratégica surgiu da iniciativa de profissionais que atuam na docência jurídica em diversos segmentos.
-				</p>
-				<div class="footer-icons">
-					<a target="_blank" href="http://www.linkedin.com/company/10913462?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10913462%2Cidx%3A2-1-2%2CtarId%3A1478792619694%2Ctas%3Ainstituto%20duc" target="_blank"><i class="fa fa-linkedin"></i></a>
-					<a target="_blank" href="http://twitter.com/DiaContato" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a target="_blank" href="http://www.facebook.com/institutodia/" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-			</div>
-		</footer>
+  <?php 
+	readfile("footer.php");
+	?>
 
 </body>
 </html>

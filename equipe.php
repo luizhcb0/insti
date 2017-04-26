@@ -63,11 +63,11 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index">Home</a></li>
-						<li class="dropdown">
+						<li class="dropdown active">
           		<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional<span class="caret"></span></a>
           		<ul class="dropdown-menu">
             		<li><a href="quem_somos">Quem somos</a></li>
-            		<li><a href="equipe">Equipe</a></li>
+            		<li class="active"><a href="">Equipe</a></li>
           		</ul>
         		</li>
 						<li><a href="cursos">Cursos e Palestras</a></li>
@@ -86,12 +86,49 @@
 		<div class="col-sm-8 col-sm-offset-2">
 		<div class="panel_boots panel-default box">
   		<div class="panel-heading">
-    		<h3 class="panel-title">Inscrição</h3>
+    		<h4 class="panel-title"><b>Diretor Presidente</b><br>Professor Gáudio Ribeiro de Paula</h4>
   		</div>
   		<div class="panel-body">
 				<div class="row">
-					<div class="col-sm-10 col-sm-offset-1">
-						<p style="padding:60px; color:#005a9c; font-size:20px;">Sua inscrição foi solicitada com sucesso!<br>Entraremos em contato em breve.<p>
+					<div class="col-sm-12 equipe_img">
+						<img alt="" src="img/diretor.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 equipe_text">
+						<p>Bacharel em Direito pela Universidade de Brasília (UNB). Especialista em Direito Material pela Universidade Presbiteriana Mackenzie.</p>
+						<p>Advogado trabalhista. Ex-assessor da Vice-Presidência do Tribunal Superior do Trabalho (TST), onde atuou de 2001 até setembro de 2015. Ex-Diretor de Informações e Projetos da Empresa TerraNova Sistemas de Informação. </p>
+						<p>Coordenador dos cursos jurídicos do IBMEC-DF. Professor de Direito Processual do Trabalho na Universidade de Brasília (UnB). Instrutor de cursos de formação para analistas e assessores no TST, servidores e magistrados nos TRTs da 17ª e 18ª Regiões, procuradores do Banco Central na UNIBACEN, advogados nas Escolas Superiores de Advocacia do Distrito Federal, São Paulo, Minas Gerais e Rio Grande do Sul, assim como de consultores jurídicos do SEBRAE nacional, entre outras instituições. Professor no Instituto de Educação Superior de Brasília (IESB) de graduação, orientador de trabalhos de conclusão de curso, além de conteudista e tutor de cursos de ensino a distância nas seguintes disciplinas: Direito Individual do Trabalho, Direito Coletivo do Trabalho, Direito Processual do Trabalho e Direito e Novas Tecnologias, assim de especialização no UnICEUB, em Processo nos Tribunais Superiores, Direito do Trabalho Contemporâneo e Práticas Processuais Trabalhistas. Palestrante nos Congressos promovidos por diversas instituições (LTr, Academia Nacional de Direito do Trabalho, IBMEC, ESAs, entre outras).</p>
+						<br><b>Contato: </b><a href="mailto:gaudio@institutodia.com.br">gaudio@institutodia.com.br</a><br>
+						(61) 9558-5000<br>
+						(61) 9843-1742
+					</div>
+				</div>
+  		</div>
+		</div>
+		</div>
+		</div>
+
+
+		<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+		<div class="panel_boots panel-default box">
+  		<div class="panel-heading">
+    		<h4 class="panel-title"><b>Diretor Comercial</b><br>Paulo José Ribeiro de Santana</h4>
+  		</div>
+  		<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-12 equipe_img">
+						<img alt="" src="img/comercial.jpg" class="img-circle">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 equipe_text">
+						<p>
+							Administrador, Especialista em Gestão Comercial, foi Coordenador de equipe de vendas na Lopes Imobiliária, Gerente Comercial no Grupo Unidom, Gerente de Expansão e Desenvolvimento na FTC (Faculdade de Tecnologia e Ciência), Sócio Diretor na Pjota Consultoria Comercial e Sócio Diretor Comercial no Instituto Duc In Altum.
+						</p>
+						<br><b>Contato: </b><a href="mailto:paulo@institutodia.com.br">paulo@institutodia.com.br</a><br>
+						(61) 99992-5741
 					</div>
 				</div>
   		</div>
@@ -101,52 +138,9 @@
 
 	</section>
 
-
-	<footer class="footer-distributed">
-			<div class="footer-left">
-				<h3><span><a href="index"><img src="img/logo_footer.png"></span></a></h3>
-				<p class="footer-links">
-					<a href="quem_somos">Sobre</a>
-					·
-					<a href="equipe">Equipe</a>
-					·
-					<a href="noticias">Cursos</a>
-					·
-					<a href="contato">Contato</a>
-				</p>
-				<p class="footer-company-name">Instituto Dia &copy; 2016</p>
-			</div>
-
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p style="color:#92999f"><span>SHN Qd 02, Bloco F,
-					</span>
-					<span>Edifício Executive Office Tower, sala 405,
-					</span><span>CEP 70702-906 - Brasília, DF</span></p>
-				</div>
-				<div>
-					<i class="fa fa-phone"></i>
-					<p style="color:#92999f">+55 61 3306-1061</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:contato@institutodia.com.br">contato@institutodia.com.br</a></p>
-				</div>
-			</div>
-
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span>Sobre o Instituto</span>
-					O Instituto Duc In Altum (DIA) de Formação Jurídica Estratégica surgiu da iniciativa de profissionais que atuam na docência jurídica em diversos segmentos.
-				</p>
-				<div class="footer-icons">
-					<a target="_blank" href="http://www.linkedin.com/company/10913462?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10913462%2Cidx%3A2-1-2%2CtarId%3A1478792619694%2Ctas%3Ainstituto%20duc" target="_blank"><i class="fa fa-linkedin"></i></a>
-					<a target="_blank" href="http://twitter.com/DiaContato" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a target="_blank" href="http://www.facebook.com/institutodia/" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-			</div>
-		</footer>
+	<?php 
+	readfile("footer.php");
+	?>
 
 </body>
 </html>
